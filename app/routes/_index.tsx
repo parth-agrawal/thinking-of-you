@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
+import Avatar from "./components/avatar";
 
 export const meta: MetaFunction = () => {
   return [
@@ -9,10 +10,12 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="text-3xl font-bold underline">
-      <h1>
-        hello
-      </h1>
+    <div className="artboard phone-1 artboard-demo">
+      <Avatar />
+      
+    
     </div>
+
+
   );
 }
