@@ -13,16 +13,24 @@ const dummyData: User = {
 
 
 export default function Avatar() {
-    return (
+
+    return(
+
         <div className="avatar" onClick={() => handleAvatarClick(dummyData)}>
-            <div className="w-24 rounded">
-                <img src="https://i.imgur.com/JNOJxCx.jpeg" />
+                <div className="w-24 rounded">
+                    <img src="https://i.imgur.com/JNOJxCx.jpeg" />
+                </div>
             </div>
-        </div>
+
     )
+
+        
+
+
+    
 }
 
-export function handleAvatarClick(dummyData: User){
+export function handleAvatarClick(dummyData: User) {
     sendEmailtoUser(dummyData);
 
 }

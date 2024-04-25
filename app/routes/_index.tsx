@@ -3,8 +3,8 @@ import Avatar from "./components/avatar";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "thinking of you" },
+    { name: "description", content: "tell your friends" },
   ];
 };
 
@@ -13,7 +13,8 @@ export default function Index() {
     <div className="artboard phone-1 artboard-demo sm:min-h-screen sm:max-w-xs items-center">
       <Avatar />
       
-    
+
+
     </div>
 
 
