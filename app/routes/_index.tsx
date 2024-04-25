@@ -10,7 +10,7 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="artboard phone-1 artboard-demo">
+    <div className="artboard phone-1 artboard-demo sm:min-h-screen sm:max-w-xs items-center">
       <Avatar />
       
     
