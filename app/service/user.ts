@@ -8,6 +8,7 @@ export async function sendEmailtoUser(user: User){
 
     const data = {
         userID: user.id,
+        name: user.name,
         first_name: user.first_name,        
         email_address: user.email_address
     }
