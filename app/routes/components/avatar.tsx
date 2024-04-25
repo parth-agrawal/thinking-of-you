@@ -16,7 +16,7 @@ export default function Avatar() {
     return (
         <div className="avatar" onClick={() => handleAvatarClick(dummyData)}>
             <div className="w-24 rounded">
-                <img src="~/../public/tyler.jpg" />
+                <img src="https://i.imgur.com/JNOJxCx.jpeg" />
             </div>
         </div>
     )
