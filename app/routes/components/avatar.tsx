@@ -6,6 +6,8 @@ import { sendEmailtoUser } from "~/service/user";
 
 const dummyData: User = {
     id: "001a",
+    name: "Tyler Kohrt",
+    first_name: "Tyler",
     email_address: "pvagrawal0@gmail.com",
 }
 
