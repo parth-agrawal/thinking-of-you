@@ -4,16 +4,15 @@ import { sendEmailtoUser } from "~/service/user";
 
 
 
-const DummyData: User = {
+const dummyData: User = {
     id: "001a",
     email_address: "pvagrawal0@gmail.com",
-
 }
 
 
 export default function Avatar() {
     return (
-        <div className="avatar" onClick={handleAvatarClick(DummyData)}>
+        <div className="avatar" onClick={() => handleAvatarClick(dummyData)}>
             <div className="w-24 rounded">
                 <img src="~/../public/tyler.jpg" />
             </div>
@@ -21,8 +20,8 @@ export default function Avatar() {
     )
 }
 
-export function handleAvatarClick(user:DummyUser){
-    sendEmailtoUser(user);
+export function handleAvatarClick(dummyData: User){
+    sendEmailtoUser(dummyData);
 
 }
 
